@@ -1,0 +1,27 @@
+{
+  "name": "Bedrock",
+  "version": "0.1",
+  "author": "Bryan Fillmer <bryan.fillmer@gmail.com>",
+  "homepage": "http://github.com/bfillmer/bedrock",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bfillmer/bedrock.git"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-less": "~0.8.1",
+    "grunt-wp-version": "~0.1.0",
+    "grunt-ftpush": "~0.3.3"
+  }
+}
